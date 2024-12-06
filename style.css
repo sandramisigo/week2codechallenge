@@ -30,11 +30,49 @@ button:hover {
     margin: 20px 0;
 }
 input[type="text"]{
-    width: 65%;
+    width: 70%;
     height: 40px;
 
 }
 #clear-button{
-margin-left:650px;
+margin-left:630px;
 margin-bottom: 20px;
 }
+l{
+    list-style: none;
+}
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  li {
+    margin: 10px 0;
+    padding: 10px;
+    background: #e6dddd;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 77%;
+    height: 35px;
+
+
+    margin-left: 90px;
+    
+  }
+  
+  li span {
+    flex-grow: 1;
+    text-align: left;
+  }
+  
+  li button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
