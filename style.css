@@ -1,0 +1,40 @@
+body{ 
+    background-color: rgb(3, 20, 69);
+
+}
+.container{
+    width: 900px;
+    background-color: aliceblue;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 6px 6px rgb(255, 251, 0);
+    border-radius: 20px;
+    margin: auto;
+}
+h1{
+    font-family: Helvetica ;
+    font-size: 50px;
+}
+button{
+    background-color: rgb(126, 102, 199);
+    font-size: 20px; 
+    border-radius: 10px;
+    margin: 10px;
+    height: 40px;
+    box-shadow: 0 6px 6px rgb(0, 0, 0);
+}
+button:hover {
+    background-color: rgb(255, 0, 195);
+}
+.input.section{
+    margin: 20px 0;
+}
+input[type="text"]{
+    width: 65%;
+    height: 40px;
+
+}
+#clear-button{
+margin-left:650px;
+margin-bottom: 20px;
+}
