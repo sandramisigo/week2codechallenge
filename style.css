@@ -1,78 +1,106 @@
+/* sets the background color for the entire page to a dark blue */
 body{ 
     background-color: rgb(3, 20, 69);
-
 }
+
+/* Centers the container. Sets specific width, background-color, justifys content and applies shadow, border-radius, and margin */
 .container{
     width: 900px;
     background-color: aliceblue;
     justify-content: center;
     text-align: center;
-    box-shadow: 0 6px 6px rgb(255, 251, 0);
-    border-radius: 20px;
-    margin: auto;
+    box-shadow: 0 6px 6px rgb(255, 251, 0); /*Adds a box shadow of this color*/
+    border-radius: 20px;/*rounds corners of the container*/
+    margin: auto;/*ensures container is well centered*/
 }
+
+/* Sets the specific font family, and size to the main heading */
 h1{
-    font-family: Helvetica ;
-    font-size: 50px;
+    font-family: Helvetica ;/*Helvetica font*/
+    font-size: 50px;/*50px-large font size*/
 }
+
+
+/*sets the default button style to a blue background color, sets height, font size, padding, and box-shadow */
 button{
-    background-color: rgb(126, 102, 199);
+    background-color: rgb(21, 88, 231);
     font-size: 20px; 
-    border-radius: 10px;
-    margin: 10px;
+    border-radius: 10px;/*sets rounded corners to the buttons*/
+    margin: 10px;/*adds space around each button*/
     height: 40px;
-    box-shadow: 0 6px 6px rgb(0, 0, 0);
+    box-shadow: 0 6px 6px rgb(20, 2, 94);/*adds blue box shadow*/
 }
+
+/*changes background-color to pink when hovered*/
 button:hover {
     background-color: rgb(255, 0, 195);
 }
+
+/*adds margin to the section that contains the input field */
 .input.section{
     margin: 20px 0;
 }
+
+/* Styles the input text field with specific width, height, and font size */
 input[type="text"]{
     width: 70%;
-    height: 40px;
+    height: 40px;/* The input field takes 70% of the container width */
+    font-size: larger;/*increases the font-size*/
 
 }
+
+/* positions the clear button and adds margin */
 #clear-button{
-margin-left:630px;
+margin-left:630px; /*positions the clear button towards the right*/
 margin-bottom: 20px;
+
 }
+
+/*removes bullets from list by setting it to none*/
 l{
     list-style: none;
 }
+
+/* Removes default list style, resets padding, and adds margin */
 ol {
     list-style: none;
     padding: 0;
-    margin: 20px 0;
+    margin: 20px 0;/*adds space around the list*/
   }
-  
+/*styles the li as follows;*/
   li {
-    margin: 10px 0;
-    padding: 10px;
-    background: #e6dddd;
-    border-radius: 4px;
-    display: flex;
-    justify-content: space-between;
+    margin: 10px 0;/* Adds space between list items */
+    padding: 10px;/* Padding inside each list item */
+    background: #e6dddd;/* sets the background for the list items */
+    border-radius: 4px;/* Rounds up the corners */
+    display: flex;/* aligns content horizontally */
+    justify-content: space-between;/* helps to align text and buttons on opposite sides */
     align-items: center;
     width: 77%;
     height: 35px;
-
-
-    margin-left: 90px;
-    
+    margin-left: 90px; /* aligns the list items slightly to the right */
   }
   
+  /* Styling the span inside each list item with color and size */
   li span {
-    flex-grow: 1;
+    flex-grow: 1;/* sets the text takes up available space */
     text-align: left;
-  }
-  
+    font-size: 20px; 
+    color: #0e02b6; /*sets a dark blue text color*/
+    }
+    
+  /* Styling the edit/delete buttons inside each list item */
   li button {
-    background-color: #dc3545;
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    border-radius: 4px;
-    cursor: pointer;
+    background-color: #6f190c;/* sets a dark red background */
+    color: white;/* White text color */
+    border: none;/* sets no border */
+    padding: 5px 10px; /* Padding for the buttons */
+    border-radius: 4px;/* Rounded button corners */
+    cursor: pointer;/* Cursor changes to pointer on hover */
+  }
+ 
+/* Styling the placeholder text inside the input field */
+  ::placeholder {
+    color: #6f190c;/* Dark red color for placeholder text */
+    font-size: large;/* Larger font size for placeholder */
   }
