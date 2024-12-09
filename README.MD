@@ -3,6 +3,8 @@
 This project is a Shopping List website application that is built using HTML, CSS, and JavaScript. The application allows users to create, modify, and manage a shopping list with striking features that ensure a smooth user experience.
 Here is the live link to the website; <https://sandramisigo.github.io/week2codechallenge/>
 
+Here is the live link to the website; [https://sandramisigo.github.io/week2codechallenge/]
+
 ## Features
 
 - **Add Items**: Users can input items into a text field and add them to the shopping list by either clicking the "Add" button or pressing the "Enter" key. 
