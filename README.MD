@@ -1,6 +1,6 @@
 # Shopping List App
 
-This project is a Shopping List website application that is built using HTML, CSS, and JavaScript. The application allows users to create, modify, and manage a shopping list with striking features that ensures a smooth user experience.
+This project is a Shopping List website application that is built using HTML, CSS, and JavaScript. The application allows users to create, modify, and manage a shopping list with striking features that ensure a smooth user experience.
 
 ## Features
 
@@ -12,15 +12,15 @@ This project is a Shopping List website application that is built using HTML, CS
 - **Persistent Storage**: All changes to the list are automatically saved in the browser's `localStorage`, meaning the list persists even after closing and reopening the browser.
 
 
-## How the project Works
+## How the Project Works
 ### **HTML:**
-Html provides the overall structure of the web page, including input fields, buttons, and the list container.
+HTML provides the overall structure of the web page, including input fields, buttons, and the list container.
 
 ### **CSS:**
-CSS styles the page, making it visually appealing with features like rounded buttons, box shadows, background color, hover effects, centered layout among others.
+CSS styles the page, making it visually appealing with features like rounded buttons, box shadows, background color, hover effects, and a centered layout among others.
 
 ### **JavaScript:**
-Javascript handles the functionality of adding, editing, and deleting items, clearing as well as saving the list to the`localStorage`. It also manages user interactions, such as detecting clicks on buttons and changes made to the checkboxes.
+Javascript handles the functionality of adding, editing, and deleting items, clearing as well as saving the list to the ' local storage`. It also manages user interactions, such as detecting clicks on buttons and changes made to the checkboxes.
 
 
 ## The Project Structure
