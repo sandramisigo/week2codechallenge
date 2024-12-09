@@ -7,14 +7,14 @@ document.addEventListener('DOMContentLoaded', () => {
   const clearButton = document.getElementById('clear-button');
   const itemList = document.getElementById('item-list');
 
-  // function that allows us to load items from the localStorage when loading the page.
-  const loadListFromLocalStorage = () => {
+// function that allows us to load items from the localStorage when loading the page.
+ const loadListFromLocalStorage = () => {
       const savedList = JSON.parse(localStorage.getItem('shoppingList')) || []; // Retrieves saved list or default to empty array
       savedList.forEach(item => addItemToList(item.text, item.purchased)); //adds saved item to the list
   };
 
-  // function that allows us to save the list to our localStorage.
-  const saveListToLocalStorage = () => {
+// function that allows us to save the list to our localStorage.
+ const saveListToLocalStorage = () => {
       const listItems = Array.from(itemList.children).map(listItem => { //Converts the list items into an array
           const text = listItem.querySelector('span').textContent; // accesses the text of each list item
           const purchased = listItem.querySelector('input[type="checkbox"]').checked; //Checks if the item is marked as purchased
@@ -23,16 +23,16 @@ document.addEventListener('DOMContentLoaded', () => {
       localStorage.setItem('shoppingList', JSON.stringify(listItems)); // Saves the array of items to the localStorage
   };
 
-  // The function that allows us to add an item to the list.
+// The function that allows us to add an item to the list.
   const addItemToList = (itemText, purchased = false) => {
       if (itemText === '') return; // If the input is empty, nothing is done
 
-  //creating list items and their components.
+//creating list items and their components.
       const listItem = document.createElement('li');
       const span = document.createElement('span');
       span.textContent = itemText;
 
-  // creating a checkbox for marking items that are purchased.
+// creating a checkbox for marking items that are purchased.
       const checkbox = document.createElement('input');
       checkbox.type = 'checkbox';
       checkbox.checked = purchased;  // Restore checkbox status if item is already purchased
